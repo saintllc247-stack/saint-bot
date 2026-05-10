@@ -24,9 +24,9 @@ from telegram.ext import (
 )
 
 # ─── НАСТРОЙКИ ───────────────────────────────────────────────
-BOT_TOKEN   = os.getenv("BOT_TOKEN", "ВСТАВЬ_ТОКЕН_СЮДА")
-ADMIN_ID    = int(os.getenv("ADMIN_ID", "ВСТАВЬ_СВОЙ_ID"))
-CARD_NUMBER = os.getenv("CARD_NUMBER", "1234 5678 9012 3456")  # Payme/Click карта
+BOT_TOKEN   = os.getenv("BOT_TOKEN", "8640330371:AAGK_IOSIvVj1gnJqaZhBE0talShuglGN5s")
+ADMIN_ID    = int(os.getenv("ADMIN_ID", "679418696"))
+CARD_NUMBER = os.getenv("CARD_NUMBER", "4916990313983444")  # Payme/Click карта
 
 # Прайс-лист алмазов (количество: цена в сумах)
 PACKAGES = {
