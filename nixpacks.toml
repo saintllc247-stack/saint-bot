@@ -1,5 +1,8 @@
+[phases.setup]
+cmds = ["python -m ensurepip --upgrade"]
+
 [phases.install]
-cmds = ["pip install -r requirements.txt"]
+cmds = ["python -m pip install -r requirements.txt"]
 
 [start]
 cmd = "python main.py"
