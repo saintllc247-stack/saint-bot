@@ -1,5 +1,5 @@
 [phases.install]
-cmds = ["pip install python-telegram-bot==20.7"]
+cmds = ["pip install -r requirements.txt"]
 
 [start]
-cmd = "python saint_bot.py"
+cmd = "python main.py"

@@ -1,1 +1,1 @@
-worker: python saint_bot.py
+bot: python main.py
